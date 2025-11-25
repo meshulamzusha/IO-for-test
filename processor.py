@@ -35,7 +35,4 @@ def has_keyword(text: str, keyword: str) -> bool:
     """
     Return True if keyword is in the text.
     """
-    for word in text.split():
-        if word == keyword:
-            return True
-    return False
+    return keyword in text
