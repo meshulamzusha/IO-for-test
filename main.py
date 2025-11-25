@@ -10,6 +10,7 @@ def print_menu() -> None:
         "4. Show the number of vowels in file."
         "5. Print lines whose length is greater than given parameter."
         "6. search a word in a file"
+        "7. Exit"
     )
 
 
