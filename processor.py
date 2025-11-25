@@ -29,3 +29,13 @@ def count_spaces(text: str) -> int:
             total = total + 1
 
     return total
+
+
+def has_keyword(text: str, keyword: str) -> bool:
+    """
+    Return True if keyword is in the text.
+    """
+    for word in text.split():
+        if word == keyword:
+            return True
+    return False
