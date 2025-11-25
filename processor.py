@@ -16,3 +16,16 @@ def count_vowels(text: str) -> int:
         if ch in "oieau":
             total = total + 1
     return total
+
+
+def count_spaces(text: str) -> int:
+    """
+    Returns how many spaces are in a string.
+    """
+    total = 0
+
+    for ch in text:
+        if ch == " ":
+            total = total + 1
+
+    return total
